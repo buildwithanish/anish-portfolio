@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -25,27 +24,48 @@ const ContactSection: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      // In a real app, you would send the form data to a backend service
-      console.log('Form submitted:', formData);
+
+    try {
+      const response = await fetch("https://formsubmit.io/send/anishkumar9905287@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Message sent!",
+          description: "Thank you for your message. I'll get back to you soon.",
+        });
+
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          message: ''
+        });
+      } else {
+        toast({
+          title: "Error",
+          description: "Something went wrong. Please try again.",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      console.error("Error sending form:", error);
       toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
+        title: "Error",
+        description: "Network issue. Please try later.",
+        variant: "destructive",
       });
-      
-      // Reset the form
-      setFormData({
-        name: '',
-        email: '',
-        message: ''
-      });
-      
-      setIsSubmitting(false);
-    }, 1500);
+    }
+
+    setIsSubmitting(false);
   };
-  
+
   return (
     <section id="contact" className="section">
       <div className="container mx-auto">
