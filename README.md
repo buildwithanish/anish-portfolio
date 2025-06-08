@@ -1,8 +1,13 @@
 # Prakash Gupta | Full Stack Developer
 
+🚀 **Live Demo:** [Click here to view live](https://anish-portfolio-theta.vercel.app)
+
+## 📖 About Project
+Ye mera personal portfolio website hai jo Vite + React + Tailwind CSS se bana hai.
+
 ## Project info
 
-**Description**: Interactive Resume & Portfolio for Alex Morgan
+**Description**: Interactive Resume & Portfolio for Anish Developer
 
 ![image](https://github.com/user-attachments/assets/6ca885e1-c3e8-4de3-91a8-6623e0360991)
 ![image](https://github.com/user-attachments/assets/d6d2b958-a90b-448e-9d66-5271e448b875)
