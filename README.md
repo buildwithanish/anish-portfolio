@@ -1,4 +1,4 @@
-# Prakash Gupta | Full Stack Developer
+# Prakash Gupta | Full Stack Developer *
 
 🚀 **Live Demo:** [Click here to view live](https://anish-portfolio-theta.vercel.app)
 
@@ -9,11 +9,9 @@ Ye mera personal portfolio website hai jo Vite + React + Tailwind CSS se bana ha
 
 **Description**: Interactive Resume & Portfolio for Anish Developer
 
-![image](https://github.com/user-attachments/assets/6ca885e1-c3e8-4de3-91a8-6623e0360991)
-![image](https://github.com/user-attachments/assets/d6d2b958-a90b-448e-9d66-5271e448b875)
-![image](https://github.com/user-attachments/assets/c94cdb1a-8438-48c3-b49a-be824a92e8af)
-![image](https://github.com/user-attachments/assets/c5a8771b-cfc7-4224-a6ba-78d7f6b9cdec)
-![image](https://github.com/user-attachments/assets/2f10ef89-7dd3-49ad-b727-e3c12c60a824)
+## Full Page Screenshot:
+![Full Website Screenshot](./assets/fullpage.png)
+
 
 
 ## How can I edit this code?
