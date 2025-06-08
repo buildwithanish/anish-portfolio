@@ -9,7 +9,7 @@ Ye mera personal portfolio website hai jo Vite + React + Tailwind CSS se bana ha
 
 **Description**: Interactive Resume & Portfolio for Anish Developer
 
-## Full Page Screenshot:
+## Screenshot:
 ![Full Website Screenshot](./assets/fullpage.png)
 
 
