@@ -1,4 +1,4 @@
-# Prakash Gupta | Full Stack Developer *
+# Prakash Gupta | Full Stack Developer 
 
 🚀 **Live Demo:** [Click here to view live](https://anish-portfolio-theta.vercel.app)
 
