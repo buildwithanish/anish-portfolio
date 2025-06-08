@@ -26,7 +26,7 @@ const ContactSection: React.FC = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("https://formsubmit.io/send/anishkumar9905287@gmail.com", {
+      const response = await fetch("https://formsubmit.co/anishkumar9905287@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
